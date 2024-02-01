@@ -52,7 +52,7 @@ public class TaskResolver {
   }
 
   public Optional<Task> resolve(String taskName) {
-    return resolve(taskName, true);
+    return resolve(taskName, false);
   }
 
   public Optional<Task> resolve(String taskName, boolean addUnresolvedToExclusionFilter) {
